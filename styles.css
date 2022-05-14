@@ -1,9 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+
 header {
-  background-color: aqua;
-  height: 400px;
+  background-color: rgba(15, 203, 236, 0.646);
+  height: 700px;
 }
 
-h1 {
+header > h1 {
   text-align: center;
-  padding: 150px;
+  padding: 300px;
+  font-size: 50px;
+  color: white;
 }
+
+p {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  height: 700px;
+}
+
+.Title {
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+.title1 {
+  font-size: 50px;
+  border-top: solid skyblue 30px;
+}
+
+.title2 {
+  font-size: 50px;
+  border-top: solid orange 30px;
+}
+
+.title3 {
+  font-size: 50px;
+  border-top: solid rgba(15, 203, 236, 0.646) 30px;
+}
+/* .secondTitle {
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+
+.thirdTitle {
+  text-align: center;
+  color: white;
+  padding: 100px;
+} */
