@@ -47,6 +47,24 @@ p {
   font-size: 50px;
   border-top: solid rgba(15, 203, 236, 0.646) 30px;
 }
+
+@media (max-width: 576px) {
+
+  * {
+    margin: 0;
+    padding: 0;;
+  }
+
+  header {
+    background-color: rgb(0, 140, 255);
+  }
+
+  header > h1 {
+    font-size: 25px;
+}
+
+}
+
 /* .secondTitle {
   text-align: center;
   color: white;
