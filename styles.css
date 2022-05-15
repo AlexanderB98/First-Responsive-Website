@@ -4,75 +4,93 @@
   }
 
 header {
-  background-color: rgba(15, 203, 236, 0.646);
-  height: 700px;
+  background-color: rgba(3, 100, 255, 0.796);
+  height: 300px;
 }
 
-header > h1 {
-  text-align: center;
-  padding: 300px;
+h1 {
   font-size: 50px;
-  color: white;
 }
 
 p {
-  margin-top: 15px;
-  font-size: 25px;
+  font-size: 16px;
+  /* width: 100%; */
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  background-color: grey;
-  height: 700px;
+header h1 {
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .Title {
   text-align: center;
-  color: white;
-  padding: 100px;
+  width: 50%;
+  padding-left: 150px;
 }
 
 .title1 {
-  font-size: 50px;
-  border-top: solid skyblue 30px;
+  border-top: solid rgba(3, 100, 255, 0.796) 20px;
+  margin-top: 40px;
+  padding-top: 15px;
 }
 
 .title2 {
-  font-size: 50px;
-  border-top: solid orange 30px;
+  border-top: solid orange 20px;
+  margin-top: 40px;
+  padding-top: 15px;
 }
 
 .title3 {
-  font-size: 50px;
-  border-top: solid rgba(15, 203, 236, 0.646) 30px;
+  border-top: solid red 20px;
+  margin-top: 40px;
+  padding-top: 15px;
 }
 
-@media (max-width: 576px) {
-
-  * {
-    margin: 0;
-    padding: 0;;
-  }
+@media (min-width: 992px) {
 
   header {
-    background-color: rgb(0, 140, 255);
+    background-color: aqua;
+    height: 600px;
   }
 
-  header > h1 {
-    font-size: 25px;
-}
+  h1 {
+    font-size: 100px;
+  }
 
-}
+  p {
+    font-size: 32px;
+  }
 
-/* .secondTitle {
-  text-align: center;
-  color: white;
-  padding: 100px;
-}
+  header h1 {
+    padding: 200px;
+  }
 
-.thirdTitle {
-  text-align: center;
-  color: white;
-  padding: 100px;
-} */
+  .container {
+    display: flex;
+  }
+
+  .Title {
+    background-color: black;
+    color: white;
+    height: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .title1 {
+    border-top: solid rgba(3, 100, 255, 0.796) 50px;
+  }
+  
+  .title2 {
+    border-top: solid orange 50px;
+  }
+  
+  .title3 {
+    border-top: solid red 50px;
+  }
+}
